@@ -3,9 +3,17 @@ import { content } from '../data/content'
 
 function Education() {
   return (
-    <section className="p-8 border-b border-gray-200">
-      <h2 className="text-2xl font-bold mb-4">Education</h2>
-      <p>Section content coming soon...</p>
+    <section className="py-16 px-6 bg-gray-50">
+      <h2 className="text-3xl font-bold mb-6 text-center">Education</h2>
+      <div className="max-w-xl mx-auto space-y-6">
+        {content.education.map((edu, idx) => (
+          <div key={idx} className="p-6 border rounded-lg shadow bg-white">
+            <h3 className="text-xl font-semibold">{edu.school}</h3>
+            <p className="text-gray-700">{edu.degree}</p>
+            <p className="text-gray-500">{edu.year}</p>
+          </div>
+        ))}
+      </div>
     </section>
   )
 }
