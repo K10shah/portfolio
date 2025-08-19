@@ -3,7 +3,9 @@ import { content } from '../data/content'
 
 function Contact() {
   return (
-    <section className="py-16 px-6 bg-white text-center">
+    <section className="py-16 px-6 bg-white text-center"
+    style={{ background: 'linear-gradient(120deg, #f6f7fb 0%, #d1e6faff 100%)' }}
+    >
       <h2 className="text-3xl font-bold mb-6">Contact</h2>
       <p className="text-gray-700 mb-6">I’m open to opportunities and collaborations. Feel free to reach out!</p>
       <div className="flex justify-center gap-6">

@@ -3,7 +3,9 @@ import { content } from '../data/content'
 
 function Education() {
   return (
-    <section className="py-16 px-6 bg-gray-50">
+    <section className="py-16 px-6 bg-gray-50"
+    style={{ background: 'linear-gradient(120deg, #e3f2fd 0%, #e0f2e7ff 100%)' }}
+    >
       <h2 className="text-3xl font-bold mb-6 text-center">Education</h2>
       <div className="max-w-xl mx-auto space-y-6">
         {content.education.map((edu, idx) => (

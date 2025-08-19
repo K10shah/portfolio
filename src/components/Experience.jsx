@@ -3,7 +3,9 @@ import { content } from '../data/content'
 
 function Experience() {
   return (
-    <section className="py-16 px-6 bg-gray-50">
+    <section className="py-16 px-6 bg-gray-50"
+    style={{ background: 'linear-gradient(120deg, #fdfcfcff 0%, #f7dbe4ff 100%)' }}
+    >
       <h2 className="text-3xl font-bold mb-6 text-center">Experience</h2>
       <div className="max-w-3xl mx-auto space-y-8">
         {content.experience.map((job, idx) => (

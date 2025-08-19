@@ -8,14 +8,14 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div>
+    <main className="max-w-7xl mx-auto my-8 p-4 rounded-2xl shadow-lg bg-white/80 backdrop-blur">
       <Hero />
       <Skills />
       <Experience />
       <Projects />
       <Education />
       <Contact />
-    </div>
+    </main>
   )
 }
 

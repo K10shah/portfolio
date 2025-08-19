@@ -3,7 +3,9 @@ import { content } from '../data/content'
 
 function Hero() {
   return (
-    <section className="flex flex-col items-center justify-center text-center py-20 bg-gray-100">
+    <section className="flex flex-col items-center justify-center text-center py-20 bg-gray-100"
+    style={{ background: 'linear-gradient(120deg, #ede7f6 0%, #e3f2fd 100%)' }}
+    >
       <h1 className="text-4xl md:text-5xl font-bold">{content.name}</h1>
       <p className="text-xl md:text-2xl mt-2 text-gray-700">{content.title}</p>
       <p className="mt-4 max-w-xl text-gray-600">{content.summary}</p>

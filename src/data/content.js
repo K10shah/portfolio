@@ -5,7 +5,7 @@ export const content = {
   github: "https://github.com/K10shah",
   linkedin: "https://www.linkedin.com/in/k10shah",
   email: "ketan.shah2014@gmail.com",
-  skills: ["Cloud infrastructure", "Distributed Systems", "Backend", "Fintec software"],
+  skills: ["Cloud infrastructure", "Distributed Systems", "Backend", "Artificial Intelligence", "Web Development"],
   programminglanguages: ["C#", "Java", "C", "C++", "Python"],
   languages: ["English", "Gujarati", "Hindi", "Spanish", "Marathi"],
   experience: [
@@ -56,11 +56,12 @@ export const content = {
     }
   ],
   projects: [
+    { name: "Deep learning on CelebAList dataset", link: "https://github.com/K10shah/ml-deeplearning-celebAlist"},
+    { name: "SmartRefrigerator", link: "https://github.com/K10shah/SmartRefrigerator" },
     { name: "Jammer Detective", link: "https://github.com/K10shah/JammerDetective" },
     { name: "PiTransfer", link: "https://github.com/K10shah/PiTransfer" },
     { name: "VisualBookmark", link: "https://github.com/K10shah/VisualBookmark" },
-    { name: "Who’sThatIntruder", link: "https://github.com/K10shah/Who-sThatIntruder" },
-    { name: "Vocem Imperium", link: "" }
+    { name: "Who’sThatIntruder", link: "https://github.com/K10shah/Who-sThatIntruder" }
   ],
   education: [
     { school: "University at Buffalo", degree: "MS Computer Science", year: "2017-2019" },

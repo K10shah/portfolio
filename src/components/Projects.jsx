@@ -3,7 +3,9 @@ import { content } from '../data/content'
 
 function Projects() {
   return (
-    <section className="py-16 px-6 bg-white">
+    <section className="py-16 px-6 bg-white"
+    style={{ background: 'linear-gradient(120deg, #faeed9ff 0%, #f8f0eaff 100%)' }}
+    >
       <h2 className="text-3xl font-bold mb-6 text-center">Academic Projects</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
         {content.projects.map((proj, idx) => (
