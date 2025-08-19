@@ -5,8 +5,9 @@ export const content = {
   github: "https://github.com/K10shah",
   linkedin: "https://www.linkedin.com/in/k10shah",
   email: "ketan.shah2014@gmail.com",
-  skills: ["JSON", "Distributed Systems", "Java"],
-  languages: ["English", "Gujarati", "Hindi", "Spanish", "German", "Marathi"],
+  skills: ["Cloud infrastructure", "Distributed Systems", "Backend", "Fintec software"],
+  programminglanguages: ["C#", "Java", "C", "C++", "Python"],
+  languages: ["English", "Gujarati", "Hindi", "Spanish", "Marathi"],
   experience: [
     {
       company: "Microsoft",
@@ -23,7 +24,36 @@ export const content = {
         }
       ]
     },
-    { company: "Tesla", roles: [{ title: "Software Engineer Intern", period: "May 2018 – Aug 2018", description: ".NET apps, Python RPC framework, test automation"}] }
+    { 
+      company: "Tesla", 
+      roles: [
+        { 
+          title: "Software Engineer Intern", 
+          period: "May 2018 – Aug 2018", 
+          description: ".NET apps, Python RPC framework, test automation"
+        }
+      ] 
+    },
+    {
+      company: "University at Buffalo",
+      roles: [
+        {
+          title:"Web Developer Student Assistant",
+          period:"Dec 2017 – May 2018",
+          description: "Equipment reservation website development for Department of Chemistry"
+        }
+      ]
+    },
+    {
+      company: "Diebold Nixdorf",
+      roles:[
+        {
+          title: "Software Engineer 2",
+          period: "Jul 2014 – Jun 2017",
+          description: "ATM machine software and backend features"
+        }
+      ]
+    }
   ],
   projects: [
     { name: "Jammer Detective", link: "https://github.com/K10shah/JammerDetective" },
