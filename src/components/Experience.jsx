@@ -20,9 +20,18 @@ function Experience() {
                 <div key={rIdx} className="relative pl-6">
                   <span className="timeline-dot absolute left-0 top-2 w-2.5 h-2.5 rounded-full bg-indigo-500" />
                   <p className="font-bold">
-                    {role.title} <span className="text-gray-500 font-normal">({role.period})</span>
+                    {role.title} <span className="text-gray-500 font-normal">({role.period}{role.location ? `, ${role.location}` : ''})</span>
                   </p>
-                  <p className="text-gray-600">{role.description}</p>
+                  {role.team && <p className="text-sm text-indigo-500 font-medium mt-0.5">{role.team}</p>}
+                  {Array.isArray(role.description) ? (
+                    <ul className="mt-2 space-y-1.5 list-disc list-outside pl-5 text-gray-600">
+                      {role.description.map((bullet, bIdx) => (
+                        <li key={bIdx}>{bullet}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="text-gray-600">{role.description}</p>
+                  )}
                 </div>
               ))}
             </div>
