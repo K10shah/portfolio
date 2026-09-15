@@ -15,16 +15,7 @@ export const content = {
         {
           title: "Senior Member of Technical Staff",
           period: "Sept 2025 – Present",
-          location: "Seattle, WA",
-          team: "Virtual Machine Infrastructure – Data Plane, Capacity Efficiency",
-          description: [
-            "Design and develop hypervisor and virtual machine lifecycle management systems within OCI’s VM Data Plane, enabling reliable provisioning, power-cycle orchestration, and host-level recovery workflows at cloud scale.",
-            "Drive capacity management and efficiency optimization initiatives, improving resource utilization across multi-tenant VM fleets through intelligent placement, resource sharing, and memory management features.",
-            "Architect and implement resource sharing and memory optimization mechanisms to enhance density and reduce infrastructure waste without compromising isolation guarantees.",
-            "Develop performance validation frameworks for VM data plane operations, identifying bottlenecks across provisioning, networking, and host orchestration paths.",
-            "Build emulated hypervisor-based test environments to enable deterministic local validation of VM lifecycle and performance scenarios, reducing integration testing friction and accelerating feature velocity.",
-            "Contribute to secure VM infrastructure initiatives including Confidential VM capabilities and hardened lifecycle controls."
-          ]
+          description: "VM lifecycle management, capacity efficiency, and memory optimization for OCI's VM Data Plane"
         }
       ]
     },
